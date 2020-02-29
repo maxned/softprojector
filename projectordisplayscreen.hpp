@@ -20,7 +20,7 @@
 #ifndef PROJECTORDISPLAYSCREEN_HPP
 #define PROJECTORDISPLAYSCREEN_HPP
 
-#include <QWidget>
+#include <QMacNativeWidget>
 #include <QQmlEngine>
 #include <QQuickView>
 #include <QQuickItem>
@@ -40,13 +40,15 @@ namespace Ui {
 class ProjectorDisplayScreen;
 }
 
-class ProjectorDisplayScreen : public QWidget
+class ProjectorDisplayScreen : public QMacNativeWidget
 {
     Q_OBJECT
 
 public:
-    explicit ProjectorDisplayScreen(QWidget *parent = 0);
+    explicit ProjectorDisplayScreen();
     ~ProjectorDisplayScreen();
+
+    int tranType;
 
 public slots:
     void resetImGenSize();
@@ -104,7 +106,7 @@ private:
     ImageGenerator imGen;
     bool backImSwitch1, textImSwitch1, backImSwitch2, textImSwitch2;
     bool isNewBack, back1to2, text1to2;
-    int tranType,backType;
+    int backType;
     QColor m_color;
    // DisplayControlsSettings mySettings;
 

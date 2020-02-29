@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F177F2C318055CF281D0488F /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoftProjector" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0137082FF7DD1D600057A1E9 /* moc_picturewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6A97E20FBBF7F26293A2BABF /* moc_picturewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		06B09375551D0C2EDC16E341 /* moc_bibleinformationdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DE65C8F9C08586898C7298CC /* moc_bibleinformationdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		08DE7BB1828571D87F35541A /* moc_moduledownloaddialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DBE517EC3D344FFA323C815B /* moc_moduledownloaddialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		0BFFC0699C10E79A715DBD8D /* managedata.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1981B6DAA4083EDD52221D0A /* managedata.cpp */; settings = {ATTRIBUTES = (); }; };
+		0F735F40B05362694AA77DD1 /* moc_song.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 42FBA26E18EF8F480CD24470 /* moc_song.cpp */; settings = {ATTRIBUTES = (); }; };
+		1086DC7DCC5120C88378371A /* QtQuick.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 679FDA6297E8F0F8C23F0E84 /* QtQuick.framework */; };
+		1168C7F494C5765E44A0587B /* moc_songsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 11FE60EE1C38230E86018106 /* moc_songsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		16A38FC9FD964CA1A3AA6C08 /* projectordisplayscreen.mm in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8AB9884306459569CDCEE0FB /* projectordisplayscreen.mm */; settings = {ATTRIBUTES = (); }; };
+		1B45829AE49824A3FD48E80D /* moc_mediawidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4CF3C4D47915CC9D52C52E48 /* moc_mediawidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		1BC80561458398DE784769D9 /* printpreviewdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 31881D1C00DD39CDF455CEA9 /* printpreviewdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		1EADD3733EE4C469107485A5 /* videoinfo.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7B8E1A44F5B1DA31270F354E /* videoinfo.cpp */; settings = {ATTRIBUTES = (); }; };
+		2572EC075121EECC90F4C194 /* moc_aboutdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8B21FAC19C4AFB512EC1C284 /* moc_aboutdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		279D4ABD1AA15616136CB48C /* QtSql.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B13EB9CB9B72162A91442963 /* QtSql.framework */; };
+		281D22B479E1A465D4FDB69B /* highlight.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8E0CB7C981A2D7001788A8FA /* highlight.cpp */; settings = {ATTRIBUTES = (); }; };
+		2DD90CCC5434E951B69B41A3 /* editwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7919B5F0B2B1B08D50E42F32 /* editwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		2FBA94FDD337EAC855396444 /* moc_songcounter.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A4ACFC40C4DC5B717F219E90 /* moc_songcounter.cpp */; settings = {ATTRIBUTES = (); }; };
+		30BE5EBB35AA86F3F3019435 /* displaysetting.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FCDF78E973465FE4F78FB0E6 /* displaysetting.cpp */; settings = {ATTRIBUTES = (); }; };
+		32F11487C2F31FEE0BE61B95 /* moc_biblewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6C1EC3BE28D3B5ABA2CF7C2F /* moc_biblewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		34C2CC3A5F0A87DCF9A43CB6 /* passivesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 15BC38ADB0D60992DB5FF4A8 /* passivesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		34F4FE8B58F8C1A6D2EF88C8 /* moc_addsongbookdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D7E9716826B9C83DDF2F2FDE /* moc_addsongbookdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		3793A9CFD221BB5F253C99DA /* videoplayerwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 61DEC59C8DADE7F1359AE226 /* videoplayerwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		37FC7F64D9B531E3B3AAFBF8 /* moc_settingsdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0A598708C35DE5EEBD936D5E /* moc_settingsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		3AA8B1E3711F9D42CC8547EA /* editannouncementdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F32F35D247CD3EE0DCB8D7E8 /* editannouncementdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		3B0E79C5904D2597A3B2DC7E /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 63837C84F1F99FED4F39505A /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		3FCBED342F11685401944355 /* moc_videoplayerwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D11600502A700AC2ECC5C1C2 /* moc_videoplayerwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		400EDAB59FD6C3A73874415A /* mediawidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8A5284A5F7A42E4EFB912EC7 /* mediawidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		46819DAD7B42AE8031AAB189 /* spfunctions.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 38EE5B9435B9555FA836DBBC /* spfunctions.cpp */; settings = {ATTRIBUTES = (); }; };
+		48DF1B644FAEAF78D5DE41C0 /* biblewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5828EED066CD68E564F464FF /* biblewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		4B9A35DD4CF5C46988DF7747 /* slideshow.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C0BE46B218C066E36F6B9BFD /* slideshow.cpp */; settings = {ATTRIBUTES = (); }; };
+		4F4600EB9E6A99ABD5CC6BDF /* moc_editwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 057EF144B2370D6A94D0E7C7 /* moc_editwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		5F59C1C7D769E051C0CC9508 /* QtPrintSupport.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DEED8E31512F39788BAC9F34 /* QtPrintSupport.framework */; };
+		6333C1386A91AD82181E6DCB /* songwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EEEF6D01CB9E21902CD2D023 /* songwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		64768641E57A061C9467FE36 /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FDDC78B91361F1538DB2E422 /* QtGui.framework */; };
+		65C5B7979D9FFB8C478AAD02 /* settings.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A7AD36017C23370BB040508B /* settings.cpp */; settings = {ATTRIBUTES = (); }; };
+		677E59B726CEC377632D5C7B /* slideshoweditor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 95429613A9056F98D71ED62E /* slideshoweditor.cpp */; settings = {ATTRIBUTES = (); }; };
+		6C5E332E7E6DAECBDEC30185 /* moc_moduleprogressdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 497B301672D5DAE588F183F1 /* moc_moduleprogressdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		6E26F43DC64C24931D256108 /* theme.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C7AA24F23D08E56650D3240A /* theme.cpp */; settings = {ATTRIBUTES = (); }; };
+		6E49131C8E54B811006C1E02 /* QtQmlModels.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1F305778E82703E36E8F7000 /* QtQmlModels.framework */; };
+		6E875152B9F0E109F687BAE9 /* moc_announcewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 10C3EE6C23B76FDB9A8834DA /* moc_announcewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		72F1269BD8294A82F77F4755 /* QtMultimedia.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BDCDF942A355CD6B1F3891AB /* QtMultimedia.framework */; };
+		7906A8BBD5C84BBCD320154B /* announcewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2535840CDC2C2B0C1E26BE92 /* announcewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		7C6FB0B76A9C85EF72D30FC0 /* songsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 698DB37D1A0B2D905E9EED2A /* songsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		7D849C8487B87005B5002BC7 /* schedule.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B516F4E58987EECA81A68A8D /* schedule.cpp */; settings = {ATTRIBUTES = (); }; };
+		7E2E01C301783A5DB97EA9D9 /* moc_slideshoweditor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D90438F8CE0A3379A7EE0D63 /* moc_slideshoweditor.cpp */; settings = {ATTRIBUTES = (); }; };
+		7F717B741E2DFA800368E2A5 /* QtMultimediaWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4E79204F659B63BF6506275E /* QtMultimediaWidgets.framework */; };
+		8209F238C215029A7B3893E0 /* mediacontrol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9E37DA52E5D5943D823429BB /* mediacontrol.cpp */; settings = {ATTRIBUTES = (); }; };
+		8246C681D483B56BD333F7DE /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1CD3FD67EFB40BE3770BABAF /* QtWidgets.framework */; };
+		8271EDA85A53BC54F1267EA3 /* moc_helpdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7B77F4F21B1676C4E242069A /* moc_helpdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		85CFA51B6AB0CA3B721318C3 /* aboutdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 80865FADCDABBA2CE5BCB435 /* aboutdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		88A0CE1002A5A082E1BC57ED /* moc_softprojector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D318FA25D14E7E47904D0268 /* moc_softprojector.cpp */; settings = {ATTRIBUTES = (); }; };
+		89976531598BE1C5F3D1BE78 /* QtNetwork.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 57A0CA12AE043C118AF29340 /* QtNetwork.framework */; };
+		8C1507FC25875CD87E0E545C /* moc_biblesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 689663C9A804FBDCC3626920 /* moc_biblesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		909556F223D4147E002F5B77 /* Cocoa.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 909556F123D4147E002F5B77 /* Cocoa.framework */; };
+		909556F623D6B61E002F5B77 /* CocoaWindow.mm in Compile Sources */ = {isa = PBXBuildFile; fileRef = 909556F423D6B61E002F5B77 /* CocoaWindow.mm */; };
+		909556FA23D6BC1C002F5B77 /* softprojector.mm in Compile Sources */ = {isa = PBXBuildFile; fileRef = 909556F923D6BC1C002F5B77 /* softprojector.mm */; };
+		94FFB69391051E5F7032FDCC /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 828B543C6A9E604F6BA97FC6 /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		9547E6FE008DDEA5027172B6 /* controlbutton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9C1DCD4C0FA11176B99886FC /* controlbutton.cpp */; settings = {ATTRIBUTES = (); }; };
+		95FF58BE552A35CB38675D47 /* moc_announcement.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5763B8FE3079AC49B1789FE5 /* moc_announcement.cpp */; settings = {ATTRIBUTES = (); }; };
+		9E23F5A20224F20752C928EE /* managedatadialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B7BDD6564FD19EDDAED115F8 /* managedatadialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		A33271639BBB4C803143A2B3 /* moc_managedatadialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1794994A579302CC107441F9 /* moc_managedatadialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		A38C4BD79A04E57F4C7C4974 /* addsongbookdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 51079016DBB2650AC62F04BC /* addsongbookdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		A4F4563A9F3B6EC0F216E635 /* qrc_softprojector.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AFFBA6A8667AA60516376226 /* qrc_softprojector.cpp */; settings = {ATTRIBUTES = (); }; };
+		A640F3654DF014D5C60DF1D7 /* moc_editannouncementdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DDE719A8562E1C23B1A62B08 /* moc_editannouncementdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		ABEE127FAECB2DED8748FF37 /* picturewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 49CA85E3A31E5498BCE96FA6 /* picturewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		B3AABE27172D448659DF981A /* bibleinformationdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3AC18DD3AF8C281328EDB3E6 /* bibleinformationdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2543FCC48E9436F21C4F63 /* Metal.framework */; };
+		B43E009EF8C014AF9CDEE8B6 /* picturesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 01C89A30639185D39EF66F77 /* picturesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		B55A398B114DE2465E23D10E /* moc_generalsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BF3EB4F693A64F59E7FBB836 /* moc_generalsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		B5C6EE5256A6406A62E5E0D8 /* moduledownloaddialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DCAB2D25ECD0361575BA7BAA /* moduledownloaddialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		BC9BF6192EE41C635D1CBEFB /* moc_mediacontrol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 401506B0BB9D27E7922B4EB9 /* moc_mediacontrol.cpp */; settings = {ATTRIBUTES = (); }; };
+		C08B0B679BF24D9BDEC9AE0C /* spimageprovider.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C9C238441876C270B006C7E9 /* spimageprovider.cpp */; settings = {ATTRIBUTES = (); }; };
+		C7B8780B27E891E2BCF7669D /* helpdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1143EDFEF8947F59DA3590F2 /* helpdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		CCA538565918D461614B6CAE /* settingsdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 08378F9AAA9AA0ABA2F2B78E /* settingsdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE594CE3FA2FA593226FEF61 /* moc_announcementsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3E935B74CE0F93F81FD5EAFD /* moc_announcementsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE5E0DB871B55A18AE18702D /* moc_controlbutton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7D64B6D956F9886DBBE3E3F4 /* moc_controlbutton.cpp */; settings = {ATTRIBUTES = (); }; };
+		CE8834D42C4CF9562B145239 /* moc_printpreviewdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 38837BC4FEFA3C6AB1E75BB9 /* moc_printpreviewdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		D46950A1C03E00331AA2E64B /* moc_picturesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6C79AB8A143DF2AF66EA58EF /* moc_picturesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		D859B9289D0D4FB6A83CF18F /* announcement.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C55F5EB31BD15742E231D8CD /* announcement.cpp */; settings = {ATTRIBUTES = (); }; };
+		D9F2326E5476A4E31F249B79 /* biblesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C53D5656DE03AFE2D6FD4F39 /* biblesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		DA1AAC554BE957F331B53A9C /* imagegenerator.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D299D3B0A9931AF9FDD4E331 /* imagegenerator.cpp */; settings = {ATTRIBUTES = (); }; };
+		DC529154C4567113C7C947A2 /* moc_passivesettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 492F3E4459EC85427DD8B8F9 /* moc_passivesettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		DCD600F1318F64AD54CA6FE1 /* moc_highlight.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E03E9B9533EF55264584971F /* moc_highlight.cpp */; settings = {ATTRIBUTES = (); }; };
+		DE00AD2B6763D62DBEE36BC2 /* moc_songwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0D9267D47D086DEA8B8EE5C3 /* moc_songwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		E37B3FE4A37B8EB53C513FD3 /* bible.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 643B9EFE05430B54F37E0D9E /* bible.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		E74A95E9AA8675D76D24AF1E /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8E90C8CC18F35FD8978999E5 /* QtCore.framework */; };
+		EA7A2FE07F682C3D233E9123 /* songcounter.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7CDAC67C0039190E683613EB /* songcounter.cpp */; settings = {ATTRIBUTES = (); }; };
+		ECA02EEFA07032EE7D8B76ED /* moduleprogressdialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7AA091A126743D142CBDEFB1 /* moduleprogressdialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		ED55BB7C9E81E3EEBAFF14ED /* announcementsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 82A05D9AB3C0DB9AD9AC6FAB /* announcementsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		EFC0E42C4FB714223D3C2C24 /* moc_managedata.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 737AAB8C7DA8B7B6825EDC1F /* moc_managedata.cpp */; settings = {ATTRIBUTES = (); }; };
+		F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 723F90793B2C195E2CCB2233 /* AppKit.framework */; };
+		F3B5FB5428A206C8357654D0 /* song.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 96DDAF0B99439D066D28E7A7 /* song.cpp */; settings = {ATTRIBUTES = (); }; };
+		FC16789C22B854A2659A215C /* moc_projectordisplayscreen.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6EE9CB67CB26001089208DBF /* moc_projectordisplayscreen.cpp */; settings = {ATTRIBUTES = (); }; };
+		FD9E1FDF97DA05360BA0368E /* QtQml.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 592185B4978078AA9409D73B /* QtQml.framework */; };
+		FE8B5C744330B80D43DADB6F /* generalsettingwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A1AD05A2E99A4E724D087632 /* generalsettingwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		909556F023D406D9002F5B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F177F2C318055CF281D0488F;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0169AAA9A7DC666F4CD02B8A /* announcementsettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = announcementsettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/announcementsettingwidget.hpp; sourceTree = "<absolute>"; };
+		01C89A30639185D39EF66F77 /* picturesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = picturesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/picturesettingwidget.cpp; sourceTree = "<absolute>"; };
+		057EF144B2370D6A94D0E7C7 /* moc_editwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_editwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_editwidget.cpp; sourceTree = "<absolute>"; };
+		07CC3C59F3F312D8389BF426 /* moduleprogressdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = moduleprogressdialog.hpp; path = /Users/maxned/Desktop/softprojector/moduleprogressdialog.hpp; sourceTree = "<absolute>"; };
+		08378F9AAA9AA0ABA2F2B78E /* settingsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = settingsdialog.cpp; path = /Users/maxned/Desktop/softprojector/settingsdialog.cpp; sourceTree = "<absolute>"; };
+		0A57E6BEA035B71BECD4598B /* picturewidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = picturewidget.hpp; path = /Users/maxned/Desktop/softprojector/picturewidget.hpp; sourceTree = "<absolute>"; };
+		0A598708C35DE5EEBD936D5E /* moc_settingsdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_settingsdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_settingsdialog.cpp; sourceTree = "<absolute>"; };
+		0B5BA3612D79302EAC331E05 /* helpdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = helpdialog.hpp; path = /Users/maxned/Desktop/softprojector/helpdialog.hpp; sourceTree = "<absolute>"; };
+		0D1CC707E36DED2B6922F23D /* slideshoweditor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = slideshoweditor.hpp; path = /Users/maxned/Desktop/softprojector/slideshoweditor.hpp; sourceTree = "<absolute>"; };
+		0D9267D47D086DEA8B8EE5C3 /* moc_songwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_songwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_songwidget.cpp; sourceTree = "<absolute>"; };
+		10C3EE6C23B76FDB9A8834DA /* moc_announcewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_announcewidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_announcewidget.cpp; sourceTree = "<absolute>"; };
+		1143EDFEF8947F59DA3590F2 /* helpdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = helpdialog.cpp; path = /Users/maxned/Desktop/softprojector/helpdialog.cpp; sourceTree = "<absolute>"; };
+		11FE60EE1C38230E86018106 /* moc_songsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_songsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_songsettingwidget.cpp; sourceTree = "<absolute>"; };
+		15BC38ADB0D60992DB5FF4A8 /* passivesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = passivesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/passivesettingwidget.cpp; sourceTree = "<absolute>"; };
+		1794994A579302CC107441F9 /* moc_managedatadialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_managedatadialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_managedatadialog.cpp; sourceTree = "<absolute>"; };
+		1981B6DAA4083EDD52221D0A /* managedata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = managedata.cpp; path = /Users/maxned/Desktop/softprojector/managedata.cpp; sourceTree = "<absolute>"; };
+		1A3C25217FBB5AE038E82EF2 /* softprojector.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = softprojector.qrc; path = /Users/maxned/Desktop/softprojector/softprojector.qrc; sourceTree = "<absolute>"; };
+		1B2543FCC48E9436F21C4F63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		1CD3FD67EFB40BE3770BABAF /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		1CEE37CEFF9B0B1E531BA206 /* ui_mediawidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mediawidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_mediawidget.h; sourceTree = "<absolute>"; };
+		1F305778E82703E36E8F7000 /* QtQmlModels.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtQmlModels.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtQmlModels.framework; sourceTree = "<absolute>"; };
+		207DFE81BAA584317780D097 /* ui_songcounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_songcounter.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_songcounter.h; sourceTree = "<absolute>"; };
+		21353977D3A84D5F3F1E8F3A /* bibleinformationdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = bibleinformationdialog.ui; path = /Users/maxned/Desktop/softprojector/bibleinformationdialog.ui; sourceTree = "<absolute>"; };
+		2323FFBE4A695795062B7BDD /* bibleinformationdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bibleinformationdialog.hpp; path = /Users/maxned/Desktop/softprojector/bibleinformationdialog.hpp; sourceTree = "<absolute>"; };
+		2450E8CD1E978DEA93BACF6B /* ui_biblewidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_biblewidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_biblewidget.h; sourceTree = "<absolute>"; };
+		2535840CDC2C2B0C1E26BE92 /* announcewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = announcewidget.cpp; path = /Users/maxned/Desktop/softprojector/announcewidget.cpp; sourceTree = "<absolute>"; };
+		25F44D0AA59B3C0BF1485FEC /* songsettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = songsettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/songsettingwidget.hpp; sourceTree = "<absolute>"; };
+		2A81B061B3EDEDA7A0612F0A /* announcement.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = announcement.hpp; path = /Users/maxned/Desktop/softprojector/announcement.hpp; sourceTree = "<absolute>"; };
+		2A91268A31B62461824DFF11 /* announcewidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = announcewidget.ui; path = /Users/maxned/Desktop/softprojector/announcewidget.ui; sourceTree = "<absolute>"; };
+		2AD9D1A2FA50E3993D87C7D2 /* videoplayerwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = videoplayerwidget.hpp; path = /Users/maxned/Desktop/softprojector/videoplayerwidget.hpp; sourceTree = "<absolute>"; };
+		2B3E32251AB73271C2E12973 /* ui_bibleinformationdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_bibleinformationdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_bibleinformationdialog.h; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		2CD0FE4D79691581BF712A4B /* projectordisplayscreen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = projectordisplayscreen.hpp; path = /Users/maxned/Desktop/softprojector/projectordisplayscreen.hpp; sourceTree = "<absolute>"; };
+		316BFC459784E64A87227F66 /* videoinfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = videoinfo.hpp; path = /Users/maxned/Desktop/softprojector/videoinfo.hpp; sourceTree = "<absolute>"; };
+		317C638B5DEEBD1BB920F1DF /* softprojector.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = softprojector.pro; path = /Users/maxned/Desktop/softprojector/softprojector.pro; sourceTree = "<absolute>"; };
+		31881D1C00DD39CDF455CEA9 /* printpreviewdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = printpreviewdialog.cpp; path = /Users/maxned/Desktop/softprojector/printpreviewdialog.cpp; sourceTree = "<absolute>"; };
+		34A709953172CD927BDC1721 /* slideshoweditor.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = slideshoweditor.ui; path = /Users/maxned/Desktop/softprojector/slideshoweditor.ui; sourceTree = "<absolute>"; };
+		351BBB2A553FC0B175BE4602 /* biblesettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = biblesettingwidget.ui; path = /Users/maxned/Desktop/softprojector/biblesettingwidget.ui; sourceTree = "<absolute>"; };
+		38837BC4FEFA3C6AB1E75BB9 /* moc_printpreviewdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_printpreviewdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_printpreviewdialog.cpp; sourceTree = "<absolute>"; };
+		38EE5B9435B9555FA836DBBC /* spfunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = spfunctions.cpp; path = /Users/maxned/Desktop/softprojector/spfunctions.cpp; sourceTree = "<absolute>"; };
+		3993BF2EB37171C076FAD510 /* ui_editwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_editwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_editwidget.h; sourceTree = "<absolute>"; };
+		39D4F05947849365BC285E18 /* biblesettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = biblesettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/biblesettingwidget.hpp; sourceTree = "<absolute>"; };
+		3AC18DD3AF8C281328EDB3E6 /* bibleinformationdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bibleinformationdialog.cpp; path = /Users/maxned/Desktop/softprojector/bibleinformationdialog.cpp; sourceTree = "<absolute>"; };
+		3B111888C78118D6536B6D93 /* mediawidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mediawidget.ui; path = /Users/maxned/Desktop/softprojector/mediawidget.ui; sourceTree = "<absolute>"; };
+		3E935B74CE0F93F81FD5EAFD /* moc_announcementsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_announcementsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_announcementsettingwidget.cpp; sourceTree = "<absolute>"; };
+		3F38C464689E541470C24BD3 /* printpreviewdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = printpreviewdialog.hpp; path = /Users/maxned/Desktop/softprojector/printpreviewdialog.hpp; sourceTree = "<absolute>"; };
+		401506B0BB9D27E7922B4EB9 /* moc_mediacontrol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mediacontrol.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_mediacontrol.cpp; sourceTree = "<absolute>"; };
+		40D2C6D791AF95DC68A3DE2B /* addsongbookdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = addsongbookdialog.ui; path = /Users/maxned/Desktop/softprojector/addsongbookdialog.ui; sourceTree = "<absolute>"; };
+		42FBA26E18EF8F480CD24470 /* moc_song.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_song.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_song.cpp; sourceTree = "<absolute>"; };
+		458DE3D665AB7F2F1A7FC13E /* managedatadialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = managedatadialog.ui; path = /Users/maxned/Desktop/softprojector/managedatadialog.ui; sourceTree = "<absolute>"; };
+		45D23FE432A0F10BF7DF7F88 /* aboutdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = aboutdialog.ui; path = /Users/maxned/Desktop/softprojector/aboutdialog.ui; sourceTree = "<absolute>"; };
+		472A55D223E953B9BA7BC937 /* ui_settingsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_settingsdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_settingsdialog.h; sourceTree = "<absolute>"; };
+		492F3E4459EC85427DD8B8F9 /* moc_passivesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_passivesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_passivesettingwidget.cpp; sourceTree = "<absolute>"; };
+		497B301672D5DAE588F183F1 /* moc_moduleprogressdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_moduleprogressdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_moduleprogressdialog.cpp; sourceTree = "<absolute>"; };
+		49815E68A46241A9C6EC2D9C /* ui_generalsettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_generalsettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_generalsettingwidget.h; sourceTree = "<absolute>"; };
+		49CA85E3A31E5498BCE96FA6 /* picturewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = picturewidget.cpp; path = /Users/maxned/Desktop/softprojector/picturewidget.cpp; sourceTree = "<absolute>"; };
+		4B46FF2ADCD38C19B0D0243F /* biblewidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = biblewidget.ui; path = /Users/maxned/Desktop/softprojector/biblewidget.ui; sourceTree = "<absolute>"; };
+		4CF3C4D47915CC9D52C52E48 /* moc_mediawidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mediawidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_mediawidget.cpp; sourceTree = "<absolute>"; };
+		4E26022B91E81700CE5E2611 /* settingsdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = settingsdialog.hpp; path = /Users/maxned/Desktop/softprojector/settingsdialog.hpp; sourceTree = "<absolute>"; };
+		4E79204F659B63BF6506275E /* QtMultimediaWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtMultimediaWidgets.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtMultimediaWidgets.framework; sourceTree = "<absolute>"; };
+		4EA1575843774464F6532AC8 /* managedatadialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = managedatadialog.hpp; path = /Users/maxned/Desktop/softprojector/managedatadialog.hpp; sourceTree = "<absolute>"; };
+		51079016DBB2650AC62F04BC /* addsongbookdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = addsongbookdialog.cpp; path = /Users/maxned/Desktop/softprojector/addsongbookdialog.cpp; sourceTree = "<absolute>"; };
+		530245647FAA54C0F8C19802 /* ui_projectordisplayscreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_projectordisplayscreen.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_projectordisplayscreen.h; sourceTree = "<absolute>"; };
+		53D81C27B95312C3B812D23A /* picturewidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = picturewidget.ui; path = /Users/maxned/Desktop/softprojector/picturewidget.ui; sourceTree = "<absolute>"; };
+		57237280EA83C4D4C21F0B03 /* settings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = settings.hpp; path = /Users/maxned/Desktop/softprojector/settings.hpp; sourceTree = "<absolute>"; };
+		5763B8FE3079AC49B1789FE5 /* moc_announcement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_announcement.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_announcement.cpp; sourceTree = "<absolute>"; };
+		57A0CA12AE043C118AF29340 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtNetwork.framework; sourceTree = "<absolute>"; };
+		580B2308BE2392AA24FEE742 /* bible.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bible.hpp; path = /Users/maxned/Desktop/softprojector/bible.hpp; sourceTree = "<absolute>"; };
+		5828EED066CD68E564F464FF /* biblewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = biblewidget.cpp; path = /Users/maxned/Desktop/softprojector/biblewidget.cpp; sourceTree = "<absolute>"; };
+		592185B4978078AA9409D73B /* QtQml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtQml.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtQml.framework; sourceTree = "<absolute>"; };
+		5F2BED1447FD8B5EEBAA3AF3 /* passivesettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = passivesettingwidget.ui; path = /Users/maxned/Desktop/softprojector/passivesettingwidget.ui; sourceTree = "<absolute>"; };
+		603AF357FC8CF425A3CC4F10 /* ui_passivesettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_passivesettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_passivesettingwidget.h; sourceTree = "<absolute>"; };
+		61DEC59C8DADE7F1359AE226 /* videoplayerwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = videoplayerwidget.cpp; path = /Users/maxned/Desktop/softprojector/videoplayerwidget.cpp; sourceTree = "<absolute>"; };
+		63837C84F1F99FED4F39505A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/maxned/Desktop/softprojector/main.cpp; sourceTree = "<absolute>"; };
+		643B9EFE05430B54F37E0D9E /* bible.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = bible.cpp; path = /Users/maxned/Desktop/softprojector/bible.cpp; sourceTree = "<absolute>"; };
+		676F5C7CBE82AE684B620590 /* managedata.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = managedata.hpp; path = /Users/maxned/Desktop/softprojector/managedata.hpp; sourceTree = "<absolute>"; };
+		679FDA6297E8F0F8C23F0E84 /* QtQuick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtQuick.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtQuick.framework; sourceTree = "<absolute>"; };
+		6815B109A26D041586700721 /* theme.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = theme.hpp; path = /Users/maxned/Desktop/softprojector/theme.hpp; sourceTree = "<absolute>"; };
+		689663C9A804FBDCC3626920 /* moc_biblesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_biblesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_biblesettingwidget.cpp; sourceTree = "<absolute>"; };
+		693722FE7D7CF4AA17D74DC6 /* ui_announcewidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_announcewidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_announcewidget.h; sourceTree = "<absolute>"; };
+		698DB37D1A0B2D905E9EED2A /* songsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = songsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/songsettingwidget.cpp; sourceTree = "<absolute>"; };
+		6A97E20FBBF7F26293A2BABF /* moc_picturewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_picturewidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_picturewidget.cpp; sourceTree = "<absolute>"; };
+		6ADE6AF90A9F85B39D620738 /* ui_helpdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_helpdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_helpdialog.h; sourceTree = "<absolute>"; };
+		6C1EC3BE28D3B5ABA2CF7C2F /* moc_biblewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_biblewidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_biblewidget.cpp; sourceTree = "<absolute>"; };
+		6C79AB8A143DF2AF66EA58EF /* moc_picturesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_picturesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_picturesettingwidget.cpp; sourceTree = "<absolute>"; };
+		6D52065D4BF8141B5BCF57C7 /* ui_songsettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_songsettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_songsettingwidget.h; sourceTree = "<absolute>"; };
+		6EE9CB67CB26001089208DBF /* moc_projectordisplayscreen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_projectordisplayscreen.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_projectordisplayscreen.cpp; sourceTree = "<absolute>"; };
+		70825933BF14C3E5DFABB93A /* songsettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = songsettingwidget.ui; path = /Users/maxned/Desktop/softprojector/songsettingwidget.ui; sourceTree = "<absolute>"; };
+		723825033CF49ECBB1B3D9C7 /* controlbutton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = controlbutton.hpp; path = /Users/maxned/Desktop/softprojector/controlbutton.hpp; sourceTree = "<absolute>"; };
+		723F90793B2C195E2CCB2233 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		737AAB8C7DA8B7B6825EDC1F /* moc_managedata.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_managedata.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_managedata.cpp; sourceTree = "<absolute>"; };
+		73A7DC89705B0BF6B94BD07B /* ui_printpreviewdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_printpreviewdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_printpreviewdialog.h; sourceTree = "<absolute>"; };
+		74AF04E91BC242284D51F668 /* passivesettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = passivesettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/passivesettingwidget.hpp; sourceTree = "<absolute>"; };
+		74F8FE9EA2BAE40E5EA38F66 /* softprojector.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = softprojector.ui; path = /Users/maxned/Desktop/softprojector/softprojector.ui; sourceTree = "<absolute>"; };
+		75051A39F45AA46B8456B04B /* editwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = editwidget.hpp; path = /Users/maxned/Desktop/softprojector/editwidget.hpp; sourceTree = "<absolute>"; };
+		75A95E1C42064D4BC4A193BC /* ui_picturewidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_picturewidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_picturewidget.h; sourceTree = "<absolute>"; };
+		75E764D496BF176F7027042F /* biblewidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = biblewidget.hpp; path = /Users/maxned/Desktop/softprojector/biblewidget.hpp; sourceTree = "<absolute>"; };
+		76DA4FA5F040F0CE1463D421 /* moduledownloaddialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = moduledownloaddialog.ui; path = /Users/maxned/Desktop/softprojector/moduledownloaddialog.ui; sourceTree = "<absolute>"; };
+		76F1FA63F153C5E62247ADC0 /* ui_softprojector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_softprojector.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_softprojector.h; sourceTree = "<absolute>"; };
+		7919B5F0B2B1B08D50E42F32 /* editwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = editwidget.cpp; path = /Users/maxned/Desktop/softprojector/editwidget.cpp; sourceTree = "<absolute>"; };
+		7A2B63C5238902580346C936 /* aboutdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aboutdialog.hpp; path = /Users/maxned/Desktop/softprojector/aboutdialog.hpp; sourceTree = "<absolute>"; };
+		7AA091A126743D142CBDEFB1 /* moduleprogressdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moduleprogressdialog.cpp; path = /Users/maxned/Desktop/softprojector/moduleprogressdialog.cpp; sourceTree = "<absolute>"; };
+		7AC7475DBEED3B80FA6BA90A /* slideshow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = slideshow.hpp; path = /Users/maxned/Desktop/softprojector/slideshow.hpp; sourceTree = "<absolute>"; };
+		7B77F4F21B1676C4E242069A /* moc_helpdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_helpdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_helpdialog.cpp; sourceTree = "<absolute>"; };
+		7B8E1A44F5B1DA31270F354E /* videoinfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = videoinfo.cpp; path = /Users/maxned/Desktop/softprojector/videoinfo.cpp; sourceTree = "<absolute>"; };
+		7C6BD7E6F689EB51BA677D69 /* addsongbookdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = addsongbookdialog.hpp; path = /Users/maxned/Desktop/softprojector/addsongbookdialog.hpp; sourceTree = "<absolute>"; };
+		7CDAC67C0039190E683613EB /* songcounter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = songcounter.cpp; path = /Users/maxned/Desktop/softprojector/songcounter.cpp; sourceTree = "<absolute>"; };
+		7D64B6D956F9886DBBE3E3F4 /* moc_controlbutton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_controlbutton.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_controlbutton.cpp; sourceTree = "<absolute>"; };
+		7E849F7ED0ACCE7DCC2BF25D /* spfunctions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = spfunctions.hpp; path = /Users/maxned/Desktop/softprojector/spfunctions.hpp; sourceTree = "<absolute>"; };
+		80865FADCDABBA2CE5BCB435 /* aboutdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = aboutdialog.cpp; path = /Users/maxned/Desktop/softprojector/aboutdialog.cpp; sourceTree = "<absolute>"; };
+		828B543C6A9E604F6BA97FC6 /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /Users/maxned/Qt/5.14.0/clang_64/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
+		82A05D9AB3C0DB9AD9AC6FAB /* announcementsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = announcementsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/announcementsettingwidget.cpp; sourceTree = "<absolute>"; };
+		838BE8D841B52DA1D9CD8986 /* ui_moduledownloaddialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_moduledownloaddialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_moduledownloaddialog.h; sourceTree = "<absolute>"; };
+		863FFA91BAA0FB9E94A49B58 /* projectordisplayscreen.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = projectordisplayscreen.ui; path = /Users/maxned/Desktop/softprojector/projectordisplayscreen.ui; sourceTree = "<absolute>"; };
+		8A5284A5F7A42E4EFB912EC7 /* mediawidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mediawidget.cpp; path = /Users/maxned/Desktop/softprojector/mediawidget.cpp; sourceTree = "<absolute>"; };
+		8AB9884306459569CDCEE0FB /* projectordisplayscreen.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = projectordisplayscreen.mm; path = /Users/maxned/Desktop/softprojector/projectordisplayscreen.mm; sourceTree = "<absolute>"; };
+		8AE3336FE9E9641CB422EAEC /* moduledownloaddialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = moduledownloaddialog.hpp; path = /Users/maxned/Desktop/softprojector/moduledownloaddialog.hpp; sourceTree = "<absolute>"; };
+		8B21FAC19C4AFB512EC1C284 /* moc_aboutdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_aboutdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_aboutdialog.cpp; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		8E0CB7C981A2D7001788A8FA /* highlight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = highlight.cpp; path = /Users/maxned/Desktop/softprojector/highlight.cpp; sourceTree = "<absolute>"; };
+		8E90C8CC18F35FD8978999E5 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		909556F123D4147E002F5B77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		909556F423D6B61E002F5B77 /* CocoaWindow.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CocoaWindow.mm; sourceTree = "<group>"; };
+		909556F523D6B61E002F5B77 /* CocoaWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CocoaWindow.hpp; sourceTree = "<group>"; };
+		909556F923D6BC1C002F5B77 /* softprojector.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = softprojector.mm; sourceTree = "<group>"; };
+		949C7F1CB9CC35FE365A5425 /* imagegenerator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imagegenerator.hpp; path = /Users/maxned/Desktop/softprojector/imagegenerator.hpp; sourceTree = "<absolute>"; };
+		95429613A9056F98D71ED62E /* slideshoweditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = slideshoweditor.cpp; path = /Users/maxned/Desktop/softprojector/slideshoweditor.cpp; sourceTree = "<absolute>"; };
+		962D58814FE9DC71C9C4ECC3 /* mediacontrol.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mediacontrol.hpp; path = /Users/maxned/Desktop/softprojector/mediacontrol.hpp; sourceTree = "<absolute>"; };
+		96DDAF0B99439D066D28E7A7 /* song.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = song.cpp; path = /Users/maxned/Desktop/softprojector/song.cpp; sourceTree = "<absolute>"; };
+		9C1DCD4C0FA11176B99886FC /* controlbutton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = controlbutton.cpp; path = /Users/maxned/Desktop/softprojector/controlbutton.cpp; sourceTree = "<absolute>"; };
+		9D1171C6D809B9203AA8572E /* schedule.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = schedule.hpp; path = /Users/maxned/Desktop/softprojector/schedule.hpp; sourceTree = "<absolute>"; };
+		9E37DA52E5D5943D823429BB /* mediacontrol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mediacontrol.cpp; path = /Users/maxned/Desktop/softprojector/mediacontrol.cpp; sourceTree = "<absolute>"; };
+		9FC1F3B475DEA923FBD1171B /* ui_addsongbookdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_addsongbookdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_addsongbookdialog.h; sourceTree = "<absolute>"; };
+		A08015735AC48735ED3B5D5C /* songwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = songwidget.ui; path = /Users/maxned/Desktop/softprojector/songwidget.ui; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A1AD05A2E99A4E724D087632 /* generalsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = generalsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/generalsettingwidget.cpp; sourceTree = "<absolute>"; };
+		A400CE6A2D3C94367921BA8E /* announcementsettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = announcementsettingwidget.ui; path = /Users/maxned/Desktop/softprojector/announcementsettingwidget.ui; sourceTree = "<absolute>"; };
+		A4ACFC40C4DC5B717F219E90 /* moc_songcounter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_songcounter.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_songcounter.cpp; sourceTree = "<absolute>"; };
+		A58AB4BBAA85B1B47847688B /* ui_managedatadialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_managedatadialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_managedatadialog.h; sourceTree = "<absolute>"; };
+		A7AD36017C23370BB040508B /* settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = settings.cpp; path = /Users/maxned/Desktop/softprojector/settings.cpp; sourceTree = "<absolute>"; };
+		AFFBA6A8667AA60516376226 /* qrc_softprojector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_softprojector.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/rcc/qrc_softprojector.cpp; sourceTree = "<absolute>"; };
+		B13EB9CB9B72162A91442963 /* QtSql.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtSql.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtSql.framework; sourceTree = "<absolute>"; };
+		B15D45B90C9C14C6708EE451 /* ui_picturesettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_picturesettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_picturesettingwidget.h; sourceTree = "<absolute>"; };
+		B3308FF6DFB073F27E041CC3 /* spimageprovider.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = spimageprovider.hpp; path = /Users/maxned/Desktop/softprojector/spimageprovider.hpp; sourceTree = "<absolute>"; };
+		B516F4E58987EECA81A68A8D /* schedule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = schedule.cpp; path = /Users/maxned/Desktop/softprojector/schedule.cpp; sourceTree = "<absolute>"; };
+		B7BDD6564FD19EDDAED115F8 /* managedatadialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = managedatadialog.cpp; path = /Users/maxned/Desktop/softprojector/managedatadialog.cpp; sourceTree = "<absolute>"; };
+		B90C64F28940135382A79EE6 /* ui_biblesettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_biblesettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_biblesettingwidget.h; sourceTree = "<absolute>"; };
+		BDCDF942A355CD6B1F3891AB /* QtMultimedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtMultimedia.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtMultimedia.framework; sourceTree = "<absolute>"; };
+		BE4A1B66C58151C570B0AB5C /* SoftProjector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftProjector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3EB4F693A64F59E7FBB836 /* moc_generalsettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_generalsettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_generalsettingwidget.cpp; sourceTree = "<absolute>"; };
+		C066F22C28D9FB79D6C109B4 /* editwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = editwidget.ui; path = /Users/maxned/Desktop/softprojector/editwidget.ui; sourceTree = "<absolute>"; };
+		C0BE46B218C066E36F6B9BFD /* slideshow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = slideshow.cpp; path = /Users/maxned/Desktop/softprojector/slideshow.cpp; sourceTree = "<absolute>"; };
+		C19939B6402144C68CE537BD /* ui_announcementsettingwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_announcementsettingwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_announcementsettingwidget.h; sourceTree = "<absolute>"; };
+		C20DB6CAF0D5590E39CA72C5 /* songwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = songwidget.hpp; path = /Users/maxned/Desktop/softprojector/songwidget.hpp; sourceTree = "<absolute>"; };
+		C4AE3FC92F9F8C6271036855 /* mediawidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mediawidget.hpp; path = /Users/maxned/Desktop/softprojector/mediawidget.hpp; sourceTree = "<absolute>"; };
+		C53D5656DE03AFE2D6FD4F39 /* biblesettingwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = biblesettingwidget.cpp; path = /Users/maxned/Desktop/softprojector/biblesettingwidget.cpp; sourceTree = "<absolute>"; };
+		C55F5EB31BD15742E231D8CD /* announcement.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = announcement.cpp; path = /Users/maxned/Desktop/softprojector/announcement.cpp; sourceTree = "<absolute>"; };
+		C7AA24F23D08E56650D3240A /* theme.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = theme.cpp; path = /Users/maxned/Desktop/softprojector/theme.cpp; sourceTree = "<absolute>"; };
+		C9C238441876C270B006C7E9 /* spimageprovider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = spimageprovider.cpp; path = /Users/maxned/Desktop/softprojector/spimageprovider.cpp; sourceTree = "<absolute>"; };
+		CA51F431F71A17699986D291 /* highlight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = highlight.hpp; path = /Users/maxned/Desktop/softprojector/highlight.hpp; sourceTree = "<absolute>"; };
+		CF2EC6EC1863CF86F97D058A /* ui_songwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_songwidget.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_songwidget.h; sourceTree = "<absolute>"; };
+		D11600502A700AC2ECC5C1C2 /* moc_videoplayerwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_videoplayerwidget.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_videoplayerwidget.cpp; sourceTree = "<absolute>"; };
+		D1306B45E046253DF986CD4E /* softprojector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = softprojector.hpp; path = /Users/maxned/Desktop/softprojector/softprojector.hpp; sourceTree = "<absolute>"; };
+		D299D3B0A9931AF9FDD4E331 /* imagegenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imagegenerator.cpp; path = /Users/maxned/Desktop/softprojector/imagegenerator.cpp; sourceTree = "<absolute>"; };
+		D318FA25D14E7E47904D0268 /* moc_softprojector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_softprojector.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_softprojector.cpp; sourceTree = "<absolute>"; };
+		D40A9F4EE5B5A2061907F121 /* displaysetting.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = displaysetting.hpp; path = /Users/maxned/Desktop/softprojector/displaysetting.hpp; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		D620FB8847A0EA19497A8C12 /* mediacontrol.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mediacontrol.ui; path = /Users/maxned/Desktop/softprojector/mediacontrol.ui; sourceTree = "<absolute>"; };
+		D7E9716826B9C83DDF2F2FDE /* moc_addsongbookdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_addsongbookdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_addsongbookdialog.cpp; sourceTree = "<absolute>"; };
+		D90438F8CE0A3379A7EE0D63 /* moc_slideshoweditor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_slideshoweditor.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_slideshoweditor.cpp; sourceTree = "<absolute>"; };
+		D93B897EA1691424E35EA35D /* songcounter.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = songcounter.ui; path = /Users/maxned/Desktop/softprojector/songcounter.ui; sourceTree = "<absolute>"; };
+		DBE517EC3D344FFA323C815B /* moc_moduledownloaddialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_moduledownloaddialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_moduledownloaddialog.cpp; sourceTree = "<absolute>"; };
+		DCAB2D25ECD0361575BA7BAA /* moduledownloaddialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moduledownloaddialog.cpp; path = /Users/maxned/Desktop/softprojector/moduledownloaddialog.cpp; sourceTree = "<absolute>"; };
+		DD0D71CC47654E6A939DA05B /* song.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = song.hpp; path = /Users/maxned/Desktop/softprojector/song.hpp; sourceTree = "<absolute>"; };
+		DDE719A8562E1C23B1A62B08 /* moc_editannouncementdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_editannouncementdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_editannouncementdialog.cpp; sourceTree = "<absolute>"; };
+		DE65C8F9C08586898C7298CC /* moc_bibleinformationdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_bibleinformationdialog.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_bibleinformationdialog.cpp; sourceTree = "<absolute>"; };
+		DEED8E31512F39788BAC9F34 /* QtPrintSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtPrintSupport.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtPrintSupport.framework; sourceTree = "<absolute>"; };
+		E03E9B9533EF55264584971F /* moc_highlight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_highlight.cpp; path = /Users/maxned/Desktop/softprojector/mac_build/moc/moc_highlight.cpp; sourceTree = "<absolute>"; };
+		E36BE389574D969F94E06328 /* generalsettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = generalsettingwidget.ui; path = /Users/maxned/Desktop/softprojector/generalsettingwidget.ui; sourceTree = "<absolute>"; };
+		E404BE1B9F86B9FFB09C7F6F /* printpreviewdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = printpreviewdialog.ui; path = /Users/maxned/Desktop/softprojector/printpreviewdialog.ui; sourceTree = "<absolute>"; };
+		E885DB2B86F55EEC21A624DF /* picturesettingwidget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = picturesettingwidget.ui; path = /Users/maxned/Desktop/softprojector/picturesettingwidget.ui; sourceTree = "<absolute>"; };
+		E8D0A78B1F7035F38FD6503D /* editannouncementdialog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = editannouncementdialog.hpp; path = /Users/maxned/Desktop/softprojector/editannouncementdialog.hpp; sourceTree = "<absolute>"; };
+		EB6AEE6EF3F1EA60E6CE93F1 /* ui_mediacontrol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mediacontrol.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_mediacontrol.h; sourceTree = "<absolute>"; };
+		EBB8C4D09645FBB9F2AB7AA2 /* settingsdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = settingsdialog.ui; path = /Users/maxned/Desktop/softprojector/settingsdialog.ui; sourceTree = "<absolute>"; };
+		EEEF6D01CB9E21902CD2D023 /* songwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = songwidget.cpp; path = /Users/maxned/Desktop/softprojector/songwidget.cpp; sourceTree = "<absolute>"; };
+		EFA304531EFA630A8F3D1FE0 /* picturesettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = picturesettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/picturesettingwidget.hpp; sourceTree = "<absolute>"; };
+		F32F35D247CD3EE0DCB8D7E8 /* editannouncementdialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = editannouncementdialog.cpp; path = /Users/maxned/Desktop/softprojector/editannouncementdialog.cpp; sourceTree = "<absolute>"; };
+		F493F67BB3520B8F6A324071 /* generalsettingwidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = generalsettingwidget.hpp; path = /Users/maxned/Desktop/softprojector/generalsettingwidget.hpp; sourceTree = "<absolute>"; };
+		F4D3C455182BBD71789ADF8B /* editannouncementdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = editannouncementdialog.ui; path = /Users/maxned/Desktop/softprojector/editannouncementdialog.ui; sourceTree = "<absolute>"; };
+		F62F8EBA90F37663610BB6D2 /* ui_editannouncementdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_editannouncementdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_editannouncementdialog.h; sourceTree = "<absolute>"; };
+		F66F3275923E454170C27659 /* ui_moduleprogressdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_moduleprogressdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_moduleprogressdialog.h; sourceTree = "<absolute>"; };
+		F679E201A3071F6492EC3867 /* ui_aboutdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_aboutdialog.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_aboutdialog.h; sourceTree = "<absolute>"; };
+		FABA940AA67D779473DF0124 /* moduleprogressdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = moduleprogressdialog.ui; path = /Users/maxned/Desktop/softprojector/moduleprogressdialog.ui; sourceTree = "<absolute>"; };
+		FB15B5D797BB0C1012F7F604 /* songcounter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = songcounter.hpp; path = /Users/maxned/Desktop/softprojector/songcounter.hpp; sourceTree = "<absolute>"; };
+		FC521C6A2FDF0BCEE45C0407 /* helpdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = helpdialog.ui; path = /Users/maxned/Desktop/softprojector/helpdialog.ui; sourceTree = "<absolute>"; };
+		FCDF78E973465FE4F78FB0E6 /* displaysetting.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = displaysetting.cpp; path = /Users/maxned/Desktop/softprojector/displaysetting.cpp; sourceTree = "<absolute>"; };
+		FD87A304173E7B04858AE965 /* announcewidget.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = announcewidget.hpp; path = /Users/maxned/Desktop/softprojector/announcewidget.hpp; sourceTree = "<absolute>"; };
+		FDDC78B91361F1538DB2E422 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/maxned/Qt/5.14.0/clang_64/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		FEA683ED70B092D83921BA17 /* ui_slideshoweditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_slideshoweditor.h; path = /Users/maxned/Desktop/softprojector/mac_build/ui/ui_slideshoweditor.h; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909556F223D4147E002F5B77 /* Cocoa.framework in Link Binary With Libraries */,
+				5F59C1C7D769E051C0CC9508 /* QtPrintSupport.framework in Link Binary With Libraries */,
+				7F717B741E2DFA800368E2A5 /* QtMultimediaWidgets.framework in Link Binary With Libraries */,
+				8246C681D483B56BD333F7DE /* QtWidgets.framework in Link Binary With Libraries */,
+				1086DC7DCC5120C88378371A /* QtQuick.framework in Link Binary With Libraries */,
+				72F1269BD8294A82F77F4755 /* QtMultimedia.framework in Link Binary With Libraries */,
+				64768641E57A061C9467FE36 /* QtGui.framework in Link Binary With Libraries */,
+				F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */,
+				B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */,
+				6E49131C8E54B811006C1E02 /* QtQmlModels.framework in Link Binary With Libraries */,
+				FD9E1FDF97DA05360BA0368E /* QtQml.framework in Link Binary With Libraries */,
+				89976531598BE1C5F3D1BE78 /* QtNetwork.framework in Link Binary With Libraries */,
+				279D4ABD1AA15616136CB48C /* QtSql.framework in Link Binary With Libraries */,
+				E74A95E9AA8675D76D24AF1E /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				74F8FE9EA2BAE40E5EA38F66 /* softprojector.ui */,
+				A08015735AC48735ED3B5D5C /* songwidget.ui */,
+				4B46FF2ADCD38C19B0D0243F /* biblewidget.ui */,
+				C066F22C28D9FB79D6C109B4 /* editwidget.ui */,
+				EBB8C4D09645FBB9F2AB7AA2 /* settingsdialog.ui */,
+				45D23FE432A0F10BF7DF7F88 /* aboutdialog.ui */,
+				40D2C6D791AF95DC68A3DE2B /* addsongbookdialog.ui */,
+				458DE3D665AB7F2F1A7FC13E /* managedatadialog.ui */,
+				2A91268A31B62461824DFF11 /* announcewidget.ui */,
+				FC521C6A2FDF0BCEE45C0407 /* helpdialog.ui */,
+				D93B897EA1691424E35EA35D /* songcounter.ui */,
+				21353977D3A84D5F3F1E8F3A /* bibleinformationdialog.ui */,
+				E36BE389574D969F94E06328 /* generalsettingwidget.ui */,
+				351BBB2A553FC0B175BE4602 /* biblesettingwidget.ui */,
+				70825933BF14C3E5DFABB93A /* songsettingwidget.ui */,
+				A400CE6A2D3C94367921BA8E /* announcementsettingwidget.ui */,
+				E404BE1B9F86B9FFB09C7F6F /* printpreviewdialog.ui */,
+				5F2BED1447FD8B5EEBAA3AF3 /* passivesettingwidget.ui */,
+				53D81C27B95312C3B812D23A /* picturewidget.ui */,
+				3B111888C78118D6536B6D93 /* mediawidget.ui */,
+				34A709953172CD927BDC1721 /* slideshoweditor.ui */,
+				F4D3C455182BBD71789ADF8B /* editannouncementdialog.ui */,
+				E885DB2B86F55EEC21A624DF /* picturesettingwidget.ui */,
+				76DA4FA5F040F0CE1463D421 /* moduledownloaddialog.ui */,
+				FABA940AA67D779473DF0124 /* moduleprogressdialog.ui */,
+				863FFA91BAA0FB9E94A49B58 /* projectordisplayscreen.ui */,
+				D620FB8847A0EA19497A8C12 /* mediacontrol.ui */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8AD7E755229CFC063C26A046 /* mac_build */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				63837C84F1F99FED4F39505A /* main.cpp */,
+				909556F923D6BC1C002F5B77 /* softprojector.mm */,
+				909556F423D6B61E002F5B77 /* CocoaWindow.mm */,
+				909556F523D6B61E002F5B77 /* CocoaWindow.hpp */,
+				EEEF6D01CB9E21902CD2D023 /* songwidget.cpp */,
+				5828EED066CD68E564F464FF /* biblewidget.cpp */,
+				7919B5F0B2B1B08D50E42F32 /* editwidget.cpp */,
+				96DDAF0B99439D066D28E7A7 /* song.cpp */,
+				643B9EFE05430B54F37E0D9E /* bible.cpp */,
+				08378F9AAA9AA0ABA2F2B78E /* settingsdialog.cpp */,
+				80865FADCDABBA2CE5BCB435 /* aboutdialog.cpp */,
+				51079016DBB2650AC62F04BC /* addsongbookdialog.cpp */,
+				8E0CB7C981A2D7001788A8FA /* highlight.cpp */,
+				B7BDD6564FD19EDDAED115F8 /* managedatadialog.cpp */,
+				1981B6DAA4083EDD52221D0A /* managedata.cpp */,
+				2535840CDC2C2B0C1E26BE92 /* announcewidget.cpp */,
+				1143EDFEF8947F59DA3590F2 /* helpdialog.cpp */,
+				7CDAC67C0039190E683613EB /* songcounter.cpp */,
+				3AC18DD3AF8C281328EDB3E6 /* bibleinformationdialog.cpp */,
+				A7AD36017C23370BB040508B /* settings.cpp */,
+				A1AD05A2E99A4E724D087632 /* generalsettingwidget.cpp */,
+				C53D5656DE03AFE2D6FD4F39 /* biblesettingwidget.cpp */,
+				698DB37D1A0B2D905E9EED2A /* songsettingwidget.cpp */,
+				82A05D9AB3C0DB9AD9AC6FAB /* announcementsettingwidget.cpp */,
+				31881D1C00DD39CDF455CEA9 /* printpreviewdialog.cpp */,
+				9C1DCD4C0FA11176B99886FC /* controlbutton.cpp */,
+				15BC38ADB0D60992DB5FF4A8 /* passivesettingwidget.cpp */,
+				C7AA24F23D08E56650D3240A /* theme.cpp */,
+				49CA85E3A31E5498BCE96FA6 /* picturewidget.cpp */,
+				C0BE46B218C066E36F6B9BFD /* slideshow.cpp */,
+				8A5284A5F7A42E4EFB912EC7 /* mediawidget.cpp */,
+				61DEC59C8DADE7F1359AE226 /* videoplayerwidget.cpp */,
+				7B8E1A44F5B1DA31270F354E /* videoinfo.cpp */,
+				38EE5B9435B9555FA836DBBC /* spfunctions.cpp */,
+				95429613A9056F98D71ED62E /* slideshoweditor.cpp */,
+				F32F35D247CD3EE0DCB8D7E8 /* editannouncementdialog.cpp */,
+				C55F5EB31BD15742E231D8CD /* announcement.cpp */,
+				B516F4E58987EECA81A68A8D /* schedule.cpp */,
+				01C89A30639185D39EF66F77 /* picturesettingwidget.cpp */,
+				DCAB2D25ECD0361575BA7BAA /* moduledownloaddialog.cpp */,
+				7AA091A126743D142CBDEFB1 /* moduleprogressdialog.cpp */,
+				FCDF78E973465FE4F78FB0E6 /* displaysetting.cpp */,
+				8AB9884306459569CDCEE0FB /* projectordisplayscreen.mm */,
+				D299D3B0A9931AF9FDD4E331 /* imagegenerator.cpp */,
+				C9C238441876C270B006C7E9 /* spimageprovider.cpp */,
+				9E37DA52E5D5943D823429BB /* mediacontrol.cpp */,
+				D1306B45E046253DF986CD4E /* softprojector.hpp */,
+				C20DB6CAF0D5590E39CA72C5 /* songwidget.hpp */,
+				75E764D496BF176F7027042F /* biblewidget.hpp */,
+				75051A39F45AA46B8456B04B /* editwidget.hpp */,
+				DD0D71CC47654E6A939DA05B /* song.hpp */,
+				580B2308BE2392AA24FEE742 /* bible.hpp */,
+				4E26022B91E81700CE5E2611 /* settingsdialog.hpp */,
+				7A2B63C5238902580346C936 /* aboutdialog.hpp */,
+				7C6BD7E6F689EB51BA677D69 /* addsongbookdialog.hpp */,
+				CA51F431F71A17699986D291 /* highlight.hpp */,
+				4EA1575843774464F6532AC8 /* managedatadialog.hpp */,
+				676F5C7CBE82AE684B620590 /* managedata.hpp */,
+				FD87A304173E7B04858AE965 /* announcewidget.hpp */,
+				0B5BA3612D79302EAC331E05 /* helpdialog.hpp */,
+				FB15B5D797BB0C1012F7F604 /* songcounter.hpp */,
+				2323FFBE4A695795062B7BDD /* bibleinformationdialog.hpp */,
+				57237280EA83C4D4C21F0B03 /* settings.hpp */,
+				F493F67BB3520B8F6A324071 /* generalsettingwidget.hpp */,
+				39D4F05947849365BC285E18 /* biblesettingwidget.hpp */,
+				25F44D0AA59B3C0BF1485FEC /* songsettingwidget.hpp */,
+				0169AAA9A7DC666F4CD02B8A /* announcementsettingwidget.hpp */,
+				3F38C464689E541470C24BD3 /* printpreviewdialog.hpp */,
+				723825033CF49ECBB1B3D9C7 /* controlbutton.hpp */,
+				74AF04E91BC242284D51F668 /* passivesettingwidget.hpp */,
+				6815B109A26D041586700721 /* theme.hpp */,
+				0A57E6BEA035B71BECD4598B /* picturewidget.hpp */,
+				7AC7475DBEED3B80FA6BA90A /* slideshow.hpp */,
+				C4AE3FC92F9F8C6271036855 /* mediawidget.hpp */,
+				2AD9D1A2FA50E3993D87C7D2 /* videoplayerwidget.hpp */,
+				316BFC459784E64A87227F66 /* videoinfo.hpp */,
+				7E849F7ED0ACCE7DCC2BF25D /* spfunctions.hpp */,
+				0D1CC707E36DED2B6922F23D /* slideshoweditor.hpp */,
+				E8D0A78B1F7035F38FD6503D /* editannouncementdialog.hpp */,
+				2A81B061B3EDEDA7A0612F0A /* announcement.hpp */,
+				9D1171C6D809B9203AA8572E /* schedule.hpp */,
+				EFA304531EFA630A8F3D1FE0 /* picturesettingwidget.hpp */,
+				8AE3336FE9E9641CB422EAEC /* moduledownloaddialog.hpp */,
+				07CC3C59F3F312D8389BF426 /* moduleprogressdialog.hpp */,
+				D40A9F4EE5B5A2061907F121 /* displaysetting.hpp */,
+				2CD0FE4D79691581BF712A4B /* projectordisplayscreen.hpp */,
+				949C7F1CB9CC35FE365A5425 /* imagegenerator.hpp */,
+				B3308FF6DFB073F27E041CC3 /* spimageprovider.hpp */,
+				962D58814FE9DC71C9C4ECC3 /* mediacontrol.hpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6C5623289B4F0F8F078777CE /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				76F1FA63F153C5E62247ADC0 /* ui_softprojector.h */,
+				CF2EC6EC1863CF86F97D058A /* ui_songwidget.h */,
+				2450E8CD1E978DEA93BACF6B /* ui_biblewidget.h */,
+				3993BF2EB37171C076FAD510 /* ui_editwidget.h */,
+				472A55D223E953B9BA7BC937 /* ui_settingsdialog.h */,
+				F679E201A3071F6492EC3867 /* ui_aboutdialog.h */,
+				9FC1F3B475DEA923FBD1171B /* ui_addsongbookdialog.h */,
+				A58AB4BBAA85B1B47847688B /* ui_managedatadialog.h */,
+				693722FE7D7CF4AA17D74DC6 /* ui_announcewidget.h */,
+				6ADE6AF90A9F85B39D620738 /* ui_helpdialog.h */,
+				207DFE81BAA584317780D097 /* ui_songcounter.h */,
+				2B3E32251AB73271C2E12973 /* ui_bibleinformationdialog.h */,
+				49815E68A46241A9C6EC2D9C /* ui_generalsettingwidget.h */,
+				B90C64F28940135382A79EE6 /* ui_biblesettingwidget.h */,
+				6D52065D4BF8141B5BCF57C7 /* ui_songsettingwidget.h */,
+				C19939B6402144C68CE537BD /* ui_announcementsettingwidget.h */,
+				73A7DC89705B0BF6B94BD07B /* ui_printpreviewdialog.h */,
+				603AF357FC8CF425A3CC4F10 /* ui_passivesettingwidget.h */,
+				75A95E1C42064D4BC4A193BC /* ui_picturewidget.h */,
+				1CEE37CEFF9B0B1E531BA206 /* ui_mediawidget.h */,
+				FEA683ED70B092D83921BA17 /* ui_slideshoweditor.h */,
+				F62F8EBA90F37663610BB6D2 /* ui_editannouncementdialog.h */,
+				B15D45B90C9C14C6708EE451 /* ui_picturesettingwidget.h */,
+				838BE8D841B52DA1D9CD8986 /* ui_moduledownloaddialog.h */,
+				F66F3275923E454170C27659 /* ui_moduleprogressdialog.h */,
+				530245647FAA54C0F8C19802 /* ui_projectordisplayscreen.h */,
+				EB6AEE6EF3F1EA60E6CE93F1 /* ui_mediacontrol.h */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				317C638B5DEEBD1BB920F1DF /* softprojector.pro */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C25217FBB5AE038E82EF2 /* softprojector.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8AD7E755229CFC063C26A046 /* mac_build */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5C03701D614C98C7B8BF1 /* rcc */,
+				BA3A8A50562BCFF8F7561981 /* moc */,
+				6C5623289B4F0F8F078777CE /* ui */,
+			);
+			name = mac_build;
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909556F123D4147E002F5B77 /* Cocoa.framework */,
+				DEED8E31512F39788BAC9F34 /* QtPrintSupport.framework */,
+				4E79204F659B63BF6506275E /* QtMultimediaWidgets.framework */,
+				1CD3FD67EFB40BE3770BABAF /* QtWidgets.framework */,
+				679FDA6297E8F0F8C23F0E84 /* QtQuick.framework */,
+				BDCDF942A355CD6B1F3891AB /* QtMultimedia.framework */,
+				FDDC78B91361F1538DB2E422 /* QtGui.framework */,
+				723F90793B2C195E2CCB2233 /* AppKit.framework */,
+				1B2543FCC48E9436F21C4F63 /* Metal.framework */,
+				1F305778E82703E36E8F7000 /* QtQmlModels.framework */,
+				592185B4978078AA9409D73B /* QtQml.framework */,
+				57A0CA12AE043C118AF29340 /* QtNetwork.framework */,
+				B13EB9CB9B72162A91442963 /* QtSql.framework */,
+				8E90C8CC18F35FD8978999E5 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
+			isa = PBXGroup;
+			children = (
+				828B543C6A9E604F6BA97FC6 /* dummy.cpp */,
+			);
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		B8D5C03701D614C98C7B8BF1 /* rcc */ = {
+			isa = PBXGroup;
+			children = (
+				AFFBA6A8667AA60516376226 /* qrc_softprojector.cpp */,
+			);
+			name = rcc;
+			sourceTree = "<group>";
+		};
+		BA3A8A50562BCFF8F7561981 /* moc */ = {
+			isa = PBXGroup;
+			children = (
+				D318FA25D14E7E47904D0268 /* moc_softprojector.cpp */,
+				0D9267D47D086DEA8B8EE5C3 /* moc_songwidget.cpp */,
+				6C1EC3BE28D3B5ABA2CF7C2F /* moc_biblewidget.cpp */,
+				057EF144B2370D6A94D0E7C7 /* moc_editwidget.cpp */,
+				42FBA26E18EF8F480CD24470 /* moc_song.cpp */,
+				0A598708C35DE5EEBD936D5E /* moc_settingsdialog.cpp */,
+				8B21FAC19C4AFB512EC1C284 /* moc_aboutdialog.cpp */,
+				D7E9716826B9C83DDF2F2FDE /* moc_addsongbookdialog.cpp */,
+				E03E9B9533EF55264584971F /* moc_highlight.cpp */,
+				1794994A579302CC107441F9 /* moc_managedatadialog.cpp */,
+				737AAB8C7DA8B7B6825EDC1F /* moc_managedata.cpp */,
+				10C3EE6C23B76FDB9A8834DA /* moc_announcewidget.cpp */,
+				7B77F4F21B1676C4E242069A /* moc_helpdialog.cpp */,
+				A4ACFC40C4DC5B717F219E90 /* moc_songcounter.cpp */,
+				DE65C8F9C08586898C7298CC /* moc_bibleinformationdialog.cpp */,
+				BF3EB4F693A64F59E7FBB836 /* moc_generalsettingwidget.cpp */,
+				689663C9A804FBDCC3626920 /* moc_biblesettingwidget.cpp */,
+				11FE60EE1C38230E86018106 /* moc_songsettingwidget.cpp */,
+				3E935B74CE0F93F81FD5EAFD /* moc_announcementsettingwidget.cpp */,
+				38837BC4FEFA3C6AB1E75BB9 /* moc_printpreviewdialog.cpp */,
+				7D64B6D956F9886DBBE3E3F4 /* moc_controlbutton.cpp */,
+				492F3E4459EC85427DD8B8F9 /* moc_passivesettingwidget.cpp */,
+				6A97E20FBBF7F26293A2BABF /* moc_picturewidget.cpp */,
+				4CF3C4D47915CC9D52C52E48 /* moc_mediawidget.cpp */,
+				D11600502A700AC2ECC5C1C2 /* moc_videoplayerwidget.cpp */,
+				D90438F8CE0A3379A7EE0D63 /* moc_slideshoweditor.cpp */,
+				DDE719A8562E1C23B1A62B08 /* moc_editannouncementdialog.cpp */,
+				5763B8FE3079AC49B1789FE5 /* moc_announcement.cpp */,
+				6C79AB8A143DF2AF66EA58EF /* moc_picturesettingwidget.cpp */,
+				DBE517EC3D344FFA323C815B /* moc_moduledownloaddialog.cpp */,
+				497B301672D5DAE588F183F1 /* moc_moduleprogressdialog.cpp */,
+				6EE9CB67CB26001089208DBF /* moc_projectordisplayscreen.cpp */,
+				401506B0BB9D27E7922B4EB9 /* moc_mediacontrol.cpp */,
+			);
+			name = moc;
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* SoftProjector */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = SoftProjector;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE4A1B66C58151C570B0AB5C /* SoftProjector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8928C2A0D0FB699CC63B6271 /* SoftProjector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoftProjector" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				9C316F444A62BF296E3E1F25 /* Project Copy */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371A88F5BF336AC2F8E0ED15 /* PBXTargetDependency */,
+			);
+			name = SoftProjector;
+			productInstallPath = mac_build/bin/;
+			productName = SoftProjector;
+			productReference = BE4A1B66C58151C570B0AB5C /* SoftProjector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				TargetAttributes = {
+					8928C2A0D0FB699CC63B6271 = {
+						DevelopmentTeam = 48S27G4A2S;
+					};
+					F177F2C318055CF281D0488F = {
+						DevelopmentTeam = 48S27G4A2S;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "SoftProjector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* SoftProjector */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8928C2A0D0FB699CC63B6271 /* SoftProjector */,
+				F177F2C318055CF281D0488F /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/maxned/Desktop/softprojector -f SoftProjector.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/maxned/Desktop/softprojector -f SoftProjector.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+		9C316F444A62BF296E3E1F25 /* Project Copy */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Project Copy";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r $BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME /Users/maxned/Desktop/softprojector/mac_build/bin";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0E79C5904D2597A3B2DC7E /* main.cpp in Compile Sources */,
+				6333C1386A91AD82181E6DCB /* songwidget.cpp in Compile Sources */,
+				48DF1B644FAEAF78D5DE41C0 /* biblewidget.cpp in Compile Sources */,
+				2DD90CCC5434E951B69B41A3 /* editwidget.cpp in Compile Sources */,
+				F3B5FB5428A206C8357654D0 /* song.cpp in Compile Sources */,
+				E37B3FE4A37B8EB53C513FD3 /* bible.cpp in Compile Sources */,
+				CCA538565918D461614B6CAE /* settingsdialog.cpp in Compile Sources */,
+				85CFA51B6AB0CA3B721318C3 /* aboutdialog.cpp in Compile Sources */,
+				A38C4BD79A04E57F4C7C4974 /* addsongbookdialog.cpp in Compile Sources */,
+				281D22B479E1A465D4FDB69B /* highlight.cpp in Compile Sources */,
+				9E23F5A20224F20752C928EE /* managedatadialog.cpp in Compile Sources */,
+				0BFFC0699C10E79A715DBD8D /* managedata.cpp in Compile Sources */,
+				7906A8BBD5C84BBCD320154B /* announcewidget.cpp in Compile Sources */,
+				C7B8780B27E891E2BCF7669D /* helpdialog.cpp in Compile Sources */,
+				EA7A2FE07F682C3D233E9123 /* songcounter.cpp in Compile Sources */,
+				B3AABE27172D448659DF981A /* bibleinformationdialog.cpp in Compile Sources */,
+				65C5B7979D9FFB8C478AAD02 /* settings.cpp in Compile Sources */,
+				FE8B5C744330B80D43DADB6F /* generalsettingwidget.cpp in Compile Sources */,
+				D9F2326E5476A4E31F249B79 /* biblesettingwidget.cpp in Compile Sources */,
+				7C6FB0B76A9C85EF72D30FC0 /* songsettingwidget.cpp in Compile Sources */,
+				ED55BB7C9E81E3EEBAFF14ED /* announcementsettingwidget.cpp in Compile Sources */,
+				1BC80561458398DE784769D9 /* printpreviewdialog.cpp in Compile Sources */,
+				9547E6FE008DDEA5027172B6 /* controlbutton.cpp in Compile Sources */,
+				34C2CC3A5F0A87DCF9A43CB6 /* passivesettingwidget.cpp in Compile Sources */,
+				6E26F43DC64C24931D256108 /* theme.cpp in Compile Sources */,
+				ABEE127FAECB2DED8748FF37 /* picturewidget.cpp in Compile Sources */,
+				4B9A35DD4CF5C46988DF7747 /* slideshow.cpp in Compile Sources */,
+				400EDAB59FD6C3A73874415A /* mediawidget.cpp in Compile Sources */,
+				3793A9CFD221BB5F253C99DA /* videoplayerwidget.cpp in Compile Sources */,
+				1EADD3733EE4C469107485A5 /* videoinfo.cpp in Compile Sources */,
+				46819DAD7B42AE8031AAB189 /* spfunctions.cpp in Compile Sources */,
+				677E59B726CEC377632D5C7B /* slideshoweditor.cpp in Compile Sources */,
+				3AA8B1E3711F9D42CC8547EA /* editannouncementdialog.cpp in Compile Sources */,
+				D859B9289D0D4FB6A83CF18F /* announcement.cpp in Compile Sources */,
+				7D849C8487B87005B5002BC7 /* schedule.cpp in Compile Sources */,
+				B43E009EF8C014AF9CDEE8B6 /* picturesettingwidget.cpp in Compile Sources */,
+				B5C6EE5256A6406A62E5E0D8 /* moduledownloaddialog.cpp in Compile Sources */,
+				ECA02EEFA07032EE7D8B76ED /* moduleprogressdialog.cpp in Compile Sources */,
+				30BE5EBB35AA86F3F3019435 /* displaysetting.cpp in Compile Sources */,
+				16A38FC9FD964CA1A3AA6C08 /* projectordisplayscreen.mm in Compile Sources */,
+				DA1AAC554BE957F331B53A9C /* imagegenerator.cpp in Compile Sources */,
+				C08B0B679BF24D9BDEC9AE0C /* spimageprovider.cpp in Compile Sources */,
+				8209F238C215029A7B3893E0 /* mediacontrol.cpp in Compile Sources */,
+				A4F4563A9F3B6EC0F216E635 /* qrc_softprojector.cpp in Compile Sources */,
+				909556F623D6B61E002F5B77 /* CocoaWindow.mm in Compile Sources */,
+				88A0CE1002A5A082E1BC57ED /* moc_softprojector.cpp in Compile Sources */,
+				909556FA23D6BC1C002F5B77 /* softprojector.mm in Compile Sources */,
+				DE00AD2B6763D62DBEE36BC2 /* moc_songwidget.cpp in Compile Sources */,
+				32F11487C2F31FEE0BE61B95 /* moc_biblewidget.cpp in Compile Sources */,
+				4F4600EB9E6A99ABD5CC6BDF /* moc_editwidget.cpp in Compile Sources */,
+				0F735F40B05362694AA77DD1 /* moc_song.cpp in Compile Sources */,
+				37FC7F64D9B531E3B3AAFBF8 /* moc_settingsdialog.cpp in Compile Sources */,
+				2572EC075121EECC90F4C194 /* moc_aboutdialog.cpp in Compile Sources */,
+				34F4FE8B58F8C1A6D2EF88C8 /* moc_addsongbookdialog.cpp in Compile Sources */,
+				DCD600F1318F64AD54CA6FE1 /* moc_highlight.cpp in Compile Sources */,
+				A33271639BBB4C803143A2B3 /* moc_managedatadialog.cpp in Compile Sources */,
+				EFC0E42C4FB714223D3C2C24 /* moc_managedata.cpp in Compile Sources */,
+				6E875152B9F0E109F687BAE9 /* moc_announcewidget.cpp in Compile Sources */,
+				8271EDA85A53BC54F1267EA3 /* moc_helpdialog.cpp in Compile Sources */,
+				2FBA94FDD337EAC855396444 /* moc_songcounter.cpp in Compile Sources */,
+				06B09375551D0C2EDC16E341 /* moc_bibleinformationdialog.cpp in Compile Sources */,
+				B55A398B114DE2465E23D10E /* moc_generalsettingwidget.cpp in Compile Sources */,
+				8C1507FC25875CD87E0E545C /* moc_biblesettingwidget.cpp in Compile Sources */,
+				1168C7F494C5765E44A0587B /* moc_songsettingwidget.cpp in Compile Sources */,
+				CE594CE3FA2FA593226FEF61 /* moc_announcementsettingwidget.cpp in Compile Sources */,
+				CE8834D42C4CF9562B145239 /* moc_printpreviewdialog.cpp in Compile Sources */,
+				CE5E0DB871B55A18AE18702D /* moc_controlbutton.cpp in Compile Sources */,
+				DC529154C4567113C7C947A2 /* moc_passivesettingwidget.cpp in Compile Sources */,
+				0137082FF7DD1D600057A1E9 /* moc_picturewidget.cpp in Compile Sources */,
+				1B45829AE49824A3FD48E80D /* moc_mediawidget.cpp in Compile Sources */,
+				3FCBED342F11685401944355 /* moc_videoplayerwidget.cpp in Compile Sources */,
+				7E2E01C301783A5DB97EA9D9 /* moc_slideshoweditor.cpp in Compile Sources */,
+				A640F3654DF014D5C60DF1D7 /* moc_editannouncementdialog.cpp in Compile Sources */,
+				95FF58BE552A35CB38675D47 /* moc_announcement.cpp in Compile Sources */,
+				D46950A1C03E00331AA2E64B /* moc_picturesettingwidget.cpp in Compile Sources */,
+				08DE7BB1828571D87F35541A /* moc_moduledownloaddialog.cpp in Compile Sources */,
+				6C5E332E7E6DAECBDEC30185 /* moc_moduleprogressdialog.cpp in Compile Sources */,
+				FC16789C22B854A2659A215C /* moc_projectordisplayscreen.cpp in Compile Sources */,
+				BC9BF6192EE41C635D1CBEFB /* moc_mediacontrol.cpp in Compile Sources */,
+				94FFB69391051E5F7032FDCC /* dummy.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371A88F5BF336AC2F8E0ED15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F177F2C318055CF281D0488F /* Qt Preprocess */;
+			targetProxy = 909556F023D406D9002F5B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/maxned/Desktop/softprojector/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 48S27G4A2S;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../Qt/5.14.0/clang_64/lib/QtPrintSupport.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtMultimediaWidgets.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQuick.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtMultimedia.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQmlModels.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQml.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtNetwork.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtSql.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,
+					mac_build/moc,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					mac_build/ui,
+					"../../Qt/5.14.0/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = /Users/maxned/Desktop/softprojector/mac_build/bin/;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OBJROOT = mac_build/obj/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/maxned/Qt/5.14.0/clang_64/lib",
+					"-F/Users/maxned/Qt/5.14.0/clang_64/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxned.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SoftProjector;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = /Users/maxned/Desktop/softprojector/.xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/maxned/Desktop/softprojector/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 48S27G4A2S;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../Qt/5.14.0/clang_64/lib/QtPrintSupport.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtMultimediaWidgets.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtWidgets.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQuick.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtMultimedia.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtGui.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQmlModels.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtQml.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtNetwork.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtSql.framework/Headers,
+					../../Qt/5.14.0/clang_64/lib/QtCore.framework/Headers,
+					mac_build/moc,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					mac_build/ui,
+					"../../Qt/5.14.0/clang_64/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_DIR = /Users/maxned/Desktop/softprojector/mac_build/bin/;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/maxned/Qt/5.14.0/clang_64/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OBJROOT = mac_build/obj/;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_PRINTSUPPORT_LIB",
+					"-DQT_MULTIMEDIAWIDGETS_LIB",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_QUICK_LIB",
+					"-DQT_MULTIMEDIA_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QMLMODELS_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/maxned/Qt/5.14.0/clang_64/lib",
+					"-F/Users/maxned/Qt/5.14.0/clang_64/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxned.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SoftProjector;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = /Users/maxned/Desktop/softprojector/.xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 48S27G4A2S;
+				ENABLE_BITCODE = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxned.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SoftProjector;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 48S27G4A2S;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_UNUSED_VALUE = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxned.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SoftProjector;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoftProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "SoftProjector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

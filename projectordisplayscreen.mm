@@ -21,8 +21,8 @@
 #include "ui_projectordisplayscreen.h"
 
 
-ProjectorDisplayScreen::ProjectorDisplayScreen(QWidget *parent) :
-    QWidget(parent),
+ProjectorDisplayScreen::ProjectorDisplayScreen() :
+    QMacNativeWidget(),
     ui(new Ui::ProjectorDisplayScreen)
 {
     ui->setupUi(this);

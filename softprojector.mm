@@ -22,6 +22,11 @@
 #include "ui_softprojector.h"
 #include "aboutdialog.hpp"
 #include "editannouncementdialog.hpp"
+#include "CocoaWindow.hpp"
+
+#include <iostream>
+
+CocoaWindow *cocoa_window;
 
 SoftProjector::SoftProjector(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::SoftProjectorClass)
@@ -41,9 +46,12 @@ SoftProjector::SoftProjector(QWidget *parent)
     desktop = new QDesktopWidget();
     // NOTE: With virtual desktop, desktop->screen() will always return the main screen,
     // so this will initialize the Display1 widget on the main screen:
-    pds1 = new ProjectorDisplayScreen(desktop->screen(0));
-    pds2 = new ProjectorDisplayScreen(desktop->screen(0)); //for future
-    // Don't worry, we'll move it later
+    pds1 = new ProjectorDisplayScreen();
+    pds2 = new ProjectorDisplayScreen();
+
+    pds1->setGeometry(desktop->screenGeometry());
+
+    cocoa_window = new CocoaWindow(pds1);
 
     bibleWidget = new BibleWidget;
     songWidget = new SongWidget;
@@ -239,7 +247,8 @@ void SoftProjector::positionDisplayWindow()
 
         if(mySettings.general.displayOnStartUp)
         {
-            pds1->showFullScreen();
+            pds1->show();
+            cocoa_window->show();
 
             ui->actionCloseDisplay->setChecked(true);
             updateCloseDisplayButtons(true);
@@ -289,20 +298,37 @@ void SoftProjector::positionDisplayWindow()
 
 void SoftProjector::showDisplayScreen(bool show)
 {
+    // There seems to be a bug somewhere where the size is randomly changed
+    // some time before it is first displayed
+    if (desktop->screenCount() > 1) {
+        if (desktop->isVirtualDesktop()) {
+            pds1->setGeometry(desktop->screenGeometry(mySettings.general.displayScreen));
+        }
+
+        if(mySettings.general.displayScreen2>=0) {
+            if (desktop->isVirtualDesktop()) {
+                pds2->setGeometry(desktop->screenGeometry(mySettings.general.displayScreen2));
+            }
+        }
+    } else {
+        pds1->setGeometry(desktop->screenGeometry());
+    }
+    
     if(show)
     {
-        pds1->showFullScreen();
+        pds1->show();
+        cocoa_window->show();
         pds1->positionControls(mySettings.general.displayControls);
         pds1->setControlsVisible(true);
     }
     else
     {
         pds1->hide();
+        cocoa_window->close();
         QPixmap p;
         pds1->renderPassiveText(p,false);
         ui->actionCloseDisplay->setEnabled(false);
     }
-
 }
 
 void SoftProjector::saveSettings()
@@ -863,7 +889,8 @@ void SoftProjector::on_actionCloseDisplay_triggered()
 {
     if(ui->actionCloseDisplay->isChecked())
     {
-        pds1->showFullScreen();
+        pds1->show();
+        cocoa_window->show();
         if(hasDisplayScreen2)
         {
             pds2->showFullScreen();
@@ -872,6 +899,7 @@ void SoftProjector::on_actionCloseDisplay_triggered()
     else
     {
         pds1->hide();
+        cocoa_window->close();
         if(hasDisplayScreen2)
         {
             pds2->hide();
